@@ -83,4 +83,14 @@ class LinkCreatingTest extends TestCase
         //Requested link should now have requested count of 2
         $this->assertEquals(Link::whereOriginalUrl($link)->first()->requested_count, 2);
     }
+
+    /** @test */
+    public function short_link_is_returned_to_user_on_submit()
+    {
+        //Submit test link and see short link on page
+        Livewire::test(LinkForm::class)
+            ->set('link', 'https://google.com')
+            ->call('submit')
+            ->assertSee(env('APP_URL') . '1');
+    }
 }
