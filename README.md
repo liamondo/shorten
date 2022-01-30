@@ -16,7 +16,7 @@ Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
 - Shorten link to link with short base62 code
 - Avoid duplicate links by returning existing short link when duplicate original links are requested
 - Track stats for links such as: number of times short link requested and number of times short link followed
-  - Viewable by adding /stats to the end of a short link (eg. http://shorten.ondo.dev/1/stats)
+  - Viewable by adding /stats to the end of a short link (eg. https://shorten.ondo.dev/1/stats)
 - Unit tests, feature tests, and continuous interaction tests
 
 ## Screenshots
