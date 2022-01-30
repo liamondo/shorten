@@ -13,6 +13,7 @@ Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
 
 ## Features
 
+- Light and dark themes (auto selected by browser preference)
 - Shorten link to link with short base62 code
 - Avoid duplicate links by returning existing short link when duplicate original links are requested
 - Track stats for links such as: number of times short link requested and number of times short link followed
@@ -22,6 +23,7 @@ Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
 ## Screenshots
 
 <img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2017.25.29.png" />
+<img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2020.39.38.png" />
 <img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2017.25.57.png" />
 <img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2017.26.15.png" />
 <img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2017.26.30.png" />
