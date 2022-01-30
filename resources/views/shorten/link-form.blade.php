@@ -51,5 +51,9 @@
         <button wire:click="$set('requestedLink', null)" class="text-zinc-500 dark:text-zinc-400 text-sm mt-2">
             Get another code
         </button>
+        <span class="text-zinc-600 dark:text-zinc-300 mx-1">/</span>
+        <a href="{{ $requestedLink . '/stats' }}" class="text-zinc-500 dark:text-zinc-400 text-sm mt-2">
+            View link stats
+        </a>
     @endif
 </div>
