@@ -30,7 +30,7 @@
         </form>
     @else
         <p class="text-center text-lg text-zinc-500 dark:text-zinc-300 font-medium mb-12">Heres your short link!</p>
-        <div class="flex rounded-md shadow-sm">
+        <div class="flex shadow-sm">
             <div class="relative flex items-stretch flex-grow focus-within:z-10">
                 <input value="{{ $requestedLink }}" class="text-3xl bg-white text-zinc-800 dark:bg-zinc-700 dark:text-zinc-50 px-4 py-2 rounded-l-md" type="text" readonly/>
             </div>
