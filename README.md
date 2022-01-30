@@ -4,7 +4,7 @@
 <p align="center">
 <img src="https://github.com/liamondo/shorten/actions/workflows/laravel.yml/badge.svg" alt="Build Status">
 <img src="https://img.shields.io/github/last-commit/liamondo/shorten" alt="Last Commit">
-<a target="_blank" href="https://shorten.ondo.dev"><img src="https://img.shields.io/badge/Demo-shorten.ondo.dev-blue" alt="Demo"></a>
+<a href="https://shorten.ondo.dev"><img src="https://img.shields.io/badge/Demo-shorten.ondo.dev-blue" alt="Demo"></a>
 </p>
 
 ## About Shortening
@@ -17,7 +17,7 @@ Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
 - Shorten link to link with short base62 code
 - Avoid duplicate links by returning existing short link when duplicate original links are requested
 - Track stats for links such as: number of times short link requested and number of times short link followed
-  - Viewable by adding /stats to the end of a short link (eg. <a target="_blank" href="https://s.ondo.dev/1/stats">https://s.ondo.dev/1/stats</a>)
+  - Viewable by adding /stats to the end of a short link (eg. https://s.ondo.dev/1/stats)
 - Unit tests, feature tests, and continuous interaction tests
 
 ## Screenshots
