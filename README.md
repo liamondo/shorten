@@ -17,7 +17,7 @@ Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
 - Avoid duplicate links by returning existing short link when duplicate original links are requested
 - Track stats for links such as: number of times short link requested and number of times short link followed
   - Viewable by adding /stats to the end of a short link (eg. http://short.test/1/stats)
-- Unit and feature tests
+- Unit tests, feature tests, and continuous interaction tests
 
 ## Screenshots
 
