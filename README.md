@@ -7,7 +7,7 @@
 <a href="https://shorten.ondo.dev"><img src="https://img.shields.io/badge/Demo-shorten.ondo.dev-blue" alt="Demo"></a>
 </p>
 
-##About Shortening
+## About Shortening
 
 Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
 
@@ -19,7 +19,7 @@ Shorten is URL shortener built with Laravel PHP and Laravel Livewire.
   - Viewable by adding /stats to the end of a short link (eg. http://short.test/1/stats)
 - Unit and feature tests
 
-##Screenshots
+## Screenshots
 
 <img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2017.25.29.png" />
 <img src="https://cdn.ondo.dev/shorten/Screenshot%202022-01-30%20at%2017.25.57.png" />
