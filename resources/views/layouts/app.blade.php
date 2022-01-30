@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <livewire:styles />
 </head>
 <body class="antialiased text-zinc-800 bg-zinc-100 dark:text-zinc-50 dark:bg-zinc-900">
@@ -18,6 +18,6 @@
     {{ $slot }}
 
     <livewire:scripts />
-    <script src="{{ secure_asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
