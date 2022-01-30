@@ -2,7 +2,7 @@
     @if(is_null($requestedLink))
         <p class="text-center text-lg text-zinc-500 dark:text-zinc-300 font-medium mb-12">Enter the link to want to shorten below.</p>
         <form wire:submit.prevent="submit" class="">
-            <div class="flex rounded-md shadow-sm">
+            <div class="flex shadow-sm">
                 <div class="relative flex items-stretch flex-grow focus-within:z-10">
                     <input wire:model="link" class="text-3xl bg-white text-zinc-800 dark:bg-zinc-700 dark:text-zinc-50 px-4 py-2 rounded-l-md" type="text" placeholder="google.com"/>
                 </div>

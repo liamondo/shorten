@@ -1,5 +1,5 @@
 <x-app-layout title="Home">
-    <div class="flex min-h-screen max-w-2xl mx-auto">
+    <div class="flex min-h-screen max-w-3xl mx-auto">
         <div class="m-auto">
             <div class="">
                 <img class="h-16 w-auto mx-auto" src="/logo.svg"/>
