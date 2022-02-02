@@ -3,6 +3,7 @@
 </p>
 <p align="center">
 <img src="https://github.com/liamondo/shorten/actions/workflows/laravel.yml/badge.svg" alt="Build Status">
+<img src="https://img.shields.io/github/v/tag/liamondo/shorten?label=release" alt="Lastest Release">
 <a href="https://shorten.ondo.dev"><img src="https://img.shields.io/badge/Demo-shorten.ondo.dev-blue" alt="Demo"></a>
 </p>
 
