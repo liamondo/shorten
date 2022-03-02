@@ -12,10 +12,6 @@ class Prepend
             return null;
         }
 
-        if (!filter_var($url, FILTER_VALIDATE_URL)) {
-            return 'http://' . $url;
-        }
-
-        return $url;
+        return strpos($url, 'http') !== 0 ? "http://$url" : $url;
     }
 }
